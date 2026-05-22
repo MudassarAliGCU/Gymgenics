@@ -4,6 +4,8 @@ import WhatToBring from '../sections/whatToBring'
 import HowToBook from '../sections/howToBook'
 import FaqSection from '../sections/faqSection'
 import CtaSection from '../sections/ctaSection'
+import UpcomingClasses from '../sections/upcomingClasses'
+import FirstTimerStories from '../sections/firstTimeStories'
 
 
 
@@ -15,6 +17,8 @@ const firstRide = () => {
       <WhatToExpect />
       <WhatToBring />
       <HowToBook />
+      <UpcomingClasses />
+      <FirstTimerStories />
       <FaqSection />
       <CtaSection />
     </>
