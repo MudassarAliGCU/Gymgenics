@@ -1,1 +1,12 @@
+@font-face{
+    font-familly:BebasNeue;
+    src:url(./assets/fonts/BebasNeue-Regular.ttf) format("truetype");
+
+}
+
+
 @import "tailwindcss";
+
+@theme{
+    --font-BebasNeue: 'BebasNeue', sans-serif;
+}
